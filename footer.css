@@ -1,0 +1,82 @@
+
+footer{
+    background: #111111;
+ }
+ 
+ .footer-info{
+     display: flex;
+     flex-wrap:wrap ;
+     justify-content: center;
+     padding: 5rem 0px;
+    }
+ 
+ .footer-info div h4{
+     display: inline-block;
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 1rem;
+     font-family: fantasy;
+     letter-spacing: 2px;
+     padding: 3rem 0px;
+     border-bottom: 1.8px solid #ffffff20;
+     width: ;
+ }
+ .footer-info div{
+     padding: 0px 2rem;
+ }
+ .footer-info div p , .footer-info div ul{
+     color: #3D3D2E;
+     font-size: 20px;
+     font-family: ;
+     list-style: none;
+     word-spacing: 0.15rem;
+     padding-top:18px;
+     display: block;
+ }
+ .footer-info-center ul li{
+     padding: 8px 0px;
+     text-transform: capitalize;
+ }
+ 
+ .footer-info-left{
+     width: 450px;
+    
+     
+ }
+ .footer-info-center{
+     
+ }
+ .footer-info-right{
+     width: 330px;
+ }
+ .footer-info-right form{
+     display: flex;
+ }
+ .footer-info-right form input ,.footer-info-right form button{
+     padding: 0px;
+     border:none;
+     margin: 1.5rem 0px;
+     height: 40px;
+ }
+ .footer-info-right form button{
+     width: 40px;
+     background: #000;
+     color: #F9A828;
+     font-size: 1.5rem;
+     cursor: pointer;
+ }
+ .footer-info-right form input{
+     width: 200px;
+     background: #ffffff15;
+     color: #fff;
+     padding: 0px 10px;
+ }
+ .copy-rights{
+     color: #3D3D2E;
+     text-align: center;
+     text-transform:uppercase;
+     font-size:12px;
+     letter-spacing: 2.5px;
+     padding: 0.4rem;
+ }
+ 

@@ -1,0 +1,137 @@
+/*start contact section*/
+.contact{
+    width: 100%;
+    text-align: ;
+    background: #000000aa;
+    position:relative;
+}
+.contact::before{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    opacity: ;
+    background: url('contact-bg.jpg');
+    position: absolute;
+    z-index: -1;
+}
+
+.c-header{
+    width: 70%;
+    min-width: 300px;
+    margin:  auto;
+    text-align: center;
+    padding: 0rem 0px;
+    padding-top: 7rem;
+}
+.c-header::after{
+    content: ' ';
+    width: 200px;
+    height: 1px;
+    display: block;
+    background: #7B8082;
+    opacity: 0.15;
+    margin: 3rem auto;
+}
+
+.c-header h2{
+    font-size: 4.4rem;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 1rem 0px;
+}
+.c-header h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: fantasy;
+    color: #7B8082;
+}
+.c-header p{
+    font-size: 1.8rem;
+    color:#7B8082;
+    
+}
+
+.c-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:;
+    padding: 1rem 2rem;
+    padding-bottom: 6rem;
+}
+.c-side{
+    margin: 0px 5rem;
+}
+.c-side-left{
+    width: 550px;
+}
+.c-side-left form ,.c-side-right div{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0px;
+}
+.c-side form *{
+    border: none;
+}
+.c-side-left form input , .c-side-left form textarea{
+    height: 3.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 1.3rem 0px;
+    color: #fff;
+    padding: 0px 1rem;
+    font-size: 1.02rem;
+}
+.c-side-left form textarea{
+    height: 12rem;
+    font-family: fantasy;
+        padding: 1.5rem 1.5rem;
+
+
+}
+.c-side-left .c-btn{
+    background: #F8A015;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.c-side form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c-side-left form div input{
+    width: 48%;
+}
+.c-side-right{
+    width: 250px;
+    margin-left: 3rem;
+}
+.c-side-right h4{
+    margin-bottom: 1.3rem ;
+}
+.c-side h4{
+    color: #fff;
+    font-family: fantasy;
+    font-size: 1.2rem;
+}
+.c-side-right div h6{
+    color: #7B8082;
+    font-size: 1.2rem;
+    font-family: fantasy;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.c-side-right div p{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+
+
+/*end contact section*/
